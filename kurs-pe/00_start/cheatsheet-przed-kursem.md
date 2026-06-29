@@ -41,7 +41,40 @@ Zaznacz, gdy gotowe:
 
 ---
 
-## ⚙️ 4. (Opcjonalnie) Pre-setup na Dzień 3 — dla chętnych ze sprzętem
+## 📦 4. Pobierz materiały do kursu (paczka ZIP — 3 min)
+
+Wszystkie szablony, ściągi i gotowe demonstracje są w **jednej paczce na GitHub**. Pobierasz ją jako **jeden plik ZIP** — nie musisz mieć konta GitHub ani nic instalować.
+
+🔗 **Adres:** `https://github.com/jaroslawchodak/kurs-pe-materialy`
+
+### Krok 1 — pobierz ZIP
+- [ ] Wejdź pod powyższy adres w przeglądarce.
+- [ ] Kliknij zielony przycisk **`< > Code`** (po prawej, nad listą plików).
+- [ ] Z menu wybierz **`Download ZIP`**.
+- [ ] Plik **`kurs-pe-materialy-main.zip`** pojawi się w folderze **Pobrane / Downloads**.
+
+> 💡 Wolisz na skróty? Ten link pobiera ZIP od razu, bez klikania:
+> `https://github.com/jaroslawchodak/kurs-pe-materialy/archive/refs/heads/main.zip`
+
+### Krok 2 — rozpakuj i przenieś do folderu *Dokumenty*
+
+**🍎 macOS:**
+- [ ] Znajdź pobrany plik ZIP (Finder → *Pobrane*).
+- [ ] **Kliknij go dwukrotnie** — rozpakuje się automatycznie obok, jako folder `kurs-pe-materialy-main`.
+- [ ] Przeciągnij ten folder do ***Dokumenty*** (w bocznym pasku Findera).
+
+**🪟 Windows:**
+- [ ] Znajdź pobrany plik ZIP (Eksplorator plików → *Pobrane*).
+- [ ] Kliknij go **prawym przyciskiem myszy** → ***Wyodrębnij wszystko…***
+- [ ] W oknie wskaż lokalizację ***Dokumenty*** i kliknij ***Wyodrębnij***.
+
+> ✅ **Gotowe, gdy:** w folderze *Dokumenty* masz folder `kurs-pe-materialy-main` (nazwę możesz skrócić do `kurs-pe-materialy`), a w środku trzy katalogi: **`kurs-pe`**, **`clustering-demo`**, **`summarizer-demo`**.
+>
+> 📖 Pliki kończące się na `.md` otwierasz **edytorem markdown z punktu 3**. Zacznij od pliku **`README.md`** w głównym folderze — to drogowskaz po całej paczce.
+
+---
+
+## ⚙️ 5. (Opcjonalnie) Pre-setup na Dzień 3 — dla chętnych ze sprzętem
 
 Potrzebne **tylko**, jeśli chcesz aktywnie ćwiczyć z modelem **lokalnym** (Blok 10) i agentem (Blok 11). Przenosi ~15–20 min instalacji poza salę.
 
@@ -73,7 +106,7 @@ Potrzebne **tylko**, jeśli chcesz aktywnie ćwiczyć z modelem **lokalnym** (Bl
 
 ---
 
-## 🔒 5. Karta BHP danych — przeczytaj przed Blokiem 1
+## 🔒 6. Karta BHP danych — przeczytaj przed Blokiem 1
 
 Zanim wkleisz **cokolwiek** do narzędzia AI w chmurze, zadaj sobie jedno pytanie:
 
@@ -95,7 +128,8 @@ Trzy reguły obowiązujące przez cały kurs (rozwiniemy je w Blokach 4, 7 i 10)
 
 - [ ] Laptop z dostępem do internetu i przeglądarką.
 - [ ] **Własny, jawny materiał badawczy** do ćwiczeń (np. artykuł PDF, fragment metod, 5–8 pozycji bibliografii z Zotero/Bookends) — najlepiej uczysz się na *swoich* tekstach. **Tylko materiał jawny lub zanonimizowany.**
-- [ ] *(opcjonalnie)* wykonany pre-setup z punktu 3.
+- [ ] **Pobrane materiały do kursu** (punkt 4) — paczka `kurs-pe-materialy` w folderze *Dokumenty*.
+- [ ] *(opcjonalnie)* wykonany pre-setup z punktu 5.
 
 ---
 
