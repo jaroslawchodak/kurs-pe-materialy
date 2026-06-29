@@ -1,0 +1,35 @@
+{
+  "_komentarz": "Szablon przekazywania danych strukturalnych modelowi. Każde pole ma NAZWĘ - znika dwuznaczność 'która liczba to rok, a która strona'. Wypełnij tylko jawnymi metadanymi bibliograficznymi. Bez danych wrażliwych.",
+  "projekt": "tytul-roboczy-projektu",
+  "data_utworzenia": "2026-06-14",
+  "zrodla": [
+    {
+      "id": 1,
+      "autorzy": ["Nazwisko, Imie"],
+      "rok": 2021,
+      "tytul": "Tytuł pracy",
+      "typ": "artykul",
+      "metoda": "np. analiza jakościowa / przegląd systematyczny",
+      "glowna_teza": "Jedno zdanie.",
+      "luka_lub_krytyka": "Czego brakuje / co budzi wątpliwość.",
+      "cytat_kotwica": "Dokładny cytat.",
+      "strona": 12,
+      "doi": "10.xxxx/xxxxx",
+      "dostep": "open access"
+    },
+    {
+      "id": 2,
+      "autorzy": ["Nazwisko, Imie", "Inny, Autor"],
+      "rok": 2023,
+      "tytul": "",
+      "typ": "rozdzial",
+      "metoda": "",
+      "glowna_teza": "",
+      "luka_lub_krytyka": "",
+      "cytat_kotwica": "",
+      "strona": null,
+      "doi": "",
+      "dostep": ""
+    }
+  ]
+}
