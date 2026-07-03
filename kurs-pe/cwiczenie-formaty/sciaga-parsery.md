@@ -15,6 +15,25 @@
 | **Llama Parse** (LlamaIndex) | trudne PDF pod RAG (usługa) | jakość kosztem prywatności — **przetwarza w chmurze**, patrz niżej |
 | **Pandoc** | konwersja MD ↔ DOCX/HTML/LaTeX | nie do PDF-skanów; uniwersalny konwerter formatów tekstowych |
 
+## Instalacja — Windows i macOS (podwójna ramka)
+> Większość parserów instaluje się przez `pip`; różni się tylko powłoka (PowerShell / Terminal), komenda (`pip` / `pip3`) i drobne zależności systemowe. Wybierz swoją ramkę. Pełna checklista środowiska: `kurs-pe/00_start/instalacje-win-mac.md`.
+
+> 🪟 **Windows** (w **PowerShell**):
+> - Domyślny parser: `pip install pymupdf4llm`
+> - Docling / marker / Markitdown: `pip install docling` · `pip install marker-pdf` · `pip install markitdown`
+> - **GROBID** działa jako usługa w kontenerze — najprościej przez **Docker Desktop for Windows** (`docker run -t --rm -p 8070:8070 lfoppiano/grobid:0.8.0`).
+> - **nougat** (wzory): `pip install nougat-ocr` — zalecana karta NVIDIA (CUDA); bez GPU działa wolno.
+> - **Pandoc**: instalator `.msi` z [pandoc.org](https://pandoc.org) albo `winget install pandoc`.
+> - Ścieżki do plików PDF: `C:\Users\Ty\Documents\...`.
+
+> 🍎 **macOS** (w **Terminalu**; używaj `pip3`):
+> - Domyślny parser: `pip3 install pymupdf4llm`
+> - Docling / marker / Markitdown: `pip3 install docling` · `pip3 install marker-pdf` · `pip3 install markitdown`
+> - **GROBID**: przez **Docker Desktop for Mac** (`docker run -t --rm -p 8070:8070 lfoppiano/grobid:0.8.0`); na Apple Silicon użyj obrazu w wersji `arm`, jeśli dostępny.
+> - **nougat** (wzory): `pip3 install nougat-ocr`; na Apple Silicon działa na CPU/MPS (wolniej niż CUDA, ale działa).
+> - **Pandoc**: `brew install pandoc` (Homebrew) albo instalator `.pkg` z [pandoc.org](https://pandoc.org).
+> - Narzędzie z sieci uruchamiane pierwszy raz → Gatekeeper: **prawy klik → „Otwórz"**. Ścieżki: `~/Documents/...`.
+
 ## Przykładowy pipeline demonstracyjny
 Skrypt Python łączący kilka narzędzi pod jedno wejście:
 ```

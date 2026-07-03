@@ -14,7 +14,11 @@ Często część DOI nie istnieje albo prowadzi do innej pracy. → Lekcja: cyta
 
 ## Pułapka 2 — zniekształcony cytat
 Daj modelowi krótki, prawdziwy fragment i poproś o „dokładny cytat z tej pracy" na temat, którego we fragmencie NIE ma.
+
 Model często „dopasuje" cytat, którego nie było. → Lekcja: żądaj kotwicy z podanego materiału, nie z pamięci.
+
+Podaj autora cytatu:
+"Wśród profesorów na uniwersytecie i dorożkarzy na krakowskim rynku jest taki sam procent idiotów"
 
 ## Pułapka 3 — pewność mimo braku danych
 Zadaj pytanie o wydarzenie po dacie odcięcia wiedzy modelu offline.

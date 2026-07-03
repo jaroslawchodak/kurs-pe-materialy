@@ -1,0 +1,6 @@
+grupa,dawka_mg,n,srednia_aktywnosc_U_mg,sd,jednostka
+kontrola,0,8,1.02,0.11,U/mg
+dawka_niska,10,8,2.15,0.19,U/mg
+dawka_srednia,25,8,3.48,0.27,U/mg
+dawka_wysoka,50,8,4.21,0.63,U/mg
+dawka_bardzo_wysoka,100,8,4.30,0.71,U/mg

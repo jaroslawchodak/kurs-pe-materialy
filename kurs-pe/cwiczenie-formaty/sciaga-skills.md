@@ -49,5 +49,17 @@ Efekt: agent przeszukuje *Twoje* notatki i tworzy nowe **knowledge chunks** (zwi
 - **MCP** — *do czego* agent sięga (bezpieczny dostęp do zewnętrznych źródeł/narzędzi, np. bazy DEVONthink).
 - **Skrypty Pythona** — *czym* liczy/przetwarza (deterministyczna praca: konwersja PDF→MD, parsowanie, obliczenia).
 
+## Od biblioteki promptów do skills (most D4 → B11)
+Twoja **biblioteka promptów** (`moj-warsztat/prompty/`, prowadzona od Bloku 2) to „skills w wersji ręcznej". Każdy dojrzały, wielokrotnie testowany wpis możesz przenieść do `SKILL.md` niemal 1:1:
+
+| Sekcja wpisu w bibliotece (D4) | Odpowiednik w `SKILL.md` |
+|---|---|
+| nazwa pliku (czasownik + obiekt) | `name:` |
+| „Kiedy używam" | `description:` (opis-wyzwalacz) |
+| „Prompt (do wklejenia)" | treść procedury (kroki) |
+| „Uwagi po testach" | komentarze / reguły „czego nie wolno" |
+
+**Gotowy przykład do obejrzenia:** `kurs-pe/cwiczenie-formaty/skill-wiersz-matrycy.md` — skill budujący jeden wiersz matrycy literatury ze streszczenia (ta sama procedura co w B8). Reguła kciuka: *powtarzasz? zrób skill; jednorazowe? zostaw prompt.*
+
 ## Granica (zasada kursu)
-Skill nie zwalnia z nadzoru. Procedura zaszyta w `SKILL.md` musi zawierać reguły grounding i ochrony danych — inaczej skaluje błąd zamiast pracy. Por. „pięć reguł" z `INSTRUKCJE-PROJEKTU-szablon.md` i rozdział „Etyka i granice AI".
+Skill nie zwalnia z nadzoru. Procedura zaszyta w `SKILL.md` musi zawierać reguły grounding i ochrony danych — inaczej skaluje błąd zamiast pracy. Pamiętaj też: plik wchodzący do kontekstu to **powierzchnia ataku** (prompt injection) — skill powinien czytać tylko z `zrodla/`, które sam przygotowałeś. Por. „pięć reguł" z `INSTRUKCJE-PROJEKTU-szablon.md` i rozdział „Etyka i granice AI".
