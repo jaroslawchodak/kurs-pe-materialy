@@ -1,6 +1,6 @@
 # Prompt wykonawczy — streszczenie tekstu naukowego
 
-Reference: {AUTHOR, YEAR #ID}
+Reference: {Bail, 2024 #69019}
 
 Streść plik z tekstem naukowym w formacie `*.md` znajdujący się w tym katalogu.
 

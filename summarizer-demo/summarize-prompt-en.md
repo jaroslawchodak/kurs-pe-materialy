@@ -1,6 +1,6 @@
 # Prompt wykonawczy — streszczenie tekstu naukowego
 
-Reference: {Fourcade and Healy, 2024 #118020}
+Reference:  {Bail, 2024 #69019}
 
 Summarize the scientific text file in `*.md` format located in this directory.
 

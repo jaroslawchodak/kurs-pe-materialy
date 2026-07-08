@@ -1,4 +1,4 @@
-Reference: {AUTHOR, YEAR ID}
+Reference: {Bail, 2024 #69019} 
 
 Summarize the following paper according to instructions provided below. 
 Remember: every paragraph must end with the reference tag above.

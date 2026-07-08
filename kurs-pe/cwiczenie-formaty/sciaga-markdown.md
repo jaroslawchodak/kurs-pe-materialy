@@ -1,6 +1,6 @@
 # Ściąga: Markdown (podstawy)
 
-> Markdown to lekki język znaczników: czysty tekst, który ma strukturę. Czytelny dla człowieka i dla modelu AI.
+> ##### Markdown to lekki język znaczników: czysty tekst, który ma strukturę. Czytelny dla człowieka i dla modelu AI.
 
 | Element | Zapis | Efekt |
 |---|---|---|
@@ -16,7 +16,7 @@
 
 ## Dlaczego Markdown dla AI?
 - Model dostaje **treść + strukturę** bez balastu formatowania (jak w DOCX/PDF).
-- Mniej tokenów idzie na „śmieci" układu → tańszy i czystszy kontekst.
+- #### Mniej tokenów idzie na „śmieci" układu → tańszy i czystszy kontekst.
 - Nagłówki i listy pomagają modelowi rozpoznać, co jest czym.
 
 ## Mini-przykład promptu w Markdown
