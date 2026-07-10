@@ -1,8 +1,8 @@
 # Ściągawka (*cheatsheet*) po szkoleniu
 
-**Prompt engineering w badaniach naukowych** · kurs półwarsztatowy, 3 dni
+**Prompt engineering w badaniach naukowych** · szkolenie półwarsztatowe, 3 dni
 
-> **Kompendium szkolenia** jest dostępne online pod adresem <https://jaroslawchodak.github.io/course-ai-research>, a komplet szablonów i skryptów — w repozytorium <https://github.com/jaroslawchodak/kurs-pe-materialy/>. Obie pozycje to **wersje rozwojowe**: będą sukcesywnie uzupełniane o nowe narzędzia i przykłady, dlatego warto wracać do nich także po zakończeniu kursu.
+> **Kompendium szkolenia** jest dostępne online pod adresem <https://jaroslawchodak.github.io/course-ai-research>, a komplet szablonów i skryptów — w repozytorium <https://github.com/jaroslawchodak/kurs-pe-materialy/>. Obie pozycje to **wersje rozwojowe**: będą sukcesywnie uzupełniane o nowe narzędzia i przykłady, dlatego warto wracać do nich także po zakończeniu szkolenia.
 
 ## 🆕 Co nowego po szkoleniu (aktualizacja materiałów)
 
@@ -18,15 +18,15 @@ Poniższe zmiany trafiły do kompendium i do repozytorium już po zajęciach. Ż
 
 ---
 
-## 🚀 Przygotowanie przed kursem (ściągawka przedkursowa)
+## 🚀 Przygotowanie przed szkoleniem (ściągawka przygotowawcza)
 
-> **To zaktualizowana wersja ściągawki `cheatsheet-przed-kursem.md`** — rozszerzona **w trakcie kursu** (po Dniu 1) o czynności, o które prosili uczestnicy. Jeśli przygotowanie przedkursowe masz już za sobą, wróć tylko do **nowych pozycji** poniżej.
+> **To zaktualizowana wersja ściągawki `cheatsheet-przed-kursem.md`** — rozszerzona **w trakcie szkolenia** (po Dniu 1) o czynności, o które prosili uczestnicy. Jeśli przygotowanie przed szkoleniem masz już za sobą, wróć tylko do **nowych pozycji** poniżej.
 
 > **Po co to?** Żeby kolejne bloki nie schodziły na instalacje i logowanie. Wchodzisz na salę z działającymi narzędziami i jednym odruchem ochrony danych. **Nie musisz niczego umieć z góry — to tylko przygotowanie dostępu.**
 
 ---
 
-## 🆕 Co nowego względem ściągawki przedkursowej
+## 🆕 Co nowego względem ściągawki przygotowawczej
 
 Tych pozycji **nie było** w `cheatsheet-przed-kursem.md` :
 
@@ -64,7 +64,7 @@ Zaznacz, gdy gotowe:
 ---
 
 ## 3. Zainstaluj co najmniej jeden z darmowych edytorów markdown 
-> dlaczego format markdown jest standardem ery AI dowiesz się w trakcie kursu.
+> dlaczego format markdown jest standardem ery AI dowiesz się w trakcie szkolenia.
 - [ ] **MarkEdit** — `https://github.com/MarkEdit-app/MarkEdit` (MacOS)
 - [ ] **CotEditor** — `https://coteditor.com` (MacOS)
 - [ ] **Ghostwriter** — `https://ghostwriter.kde.org` (Windows, MacOS, Linux)
@@ -78,7 +78,7 @@ Zaznacz, gdy gotowe:
 
 ---
 
-## 📦 4. Pobierz materiały do kursu (paczka ZIP — 3 min)
+## 📦 4. Pobierz materiały do szkolenia (paczka ZIP — 3 min)
 
 Wszystkie szablony, ściągi i gotowe demonstracje są w **jednej paczce na GitHub**. Pobierasz ją jako **jeden plik ZIP** — nie musisz mieć konta GitHub ani nic instalować.
 
@@ -109,9 +109,9 @@ Wszystkie szablony, ściągi i gotowe demonstracje są w **jednej paczce na GitH
 >
 > 📖 Pliki kończące się na `.md` otwierasz **edytorem markdown z punktu 3**. Zacznij od pliku **`README.md`** w głównym folderze — to drogowskaz po całej paczce.
 
-### 🔄 Aktualizacja — w trakcie kursu doszły NOWE pliki i katalogi
+### 🔄 Aktualizacja — w trakcie szkolenia doszły NOWE pliki i katalogi
 
-> **W paczce `kurs-pe/` przybyło materiałów** dodanych w trakcie kursu — m.in.:
+> **W paczce `kurs-pe/` przybyło materiałów** dodanych w trakcie szkolenia — m.in.:
 > - **`kurs-pe/materialy-dyscyplinarne/`** — trzy tory ćwiczeń (**tor-a** ścisłe/przyrodnicze · **tor-b** społeczne · **tor-c** humanistyka) z gotowymi materiałami i wzorcowym rozwiązaniem,
 > - **`kurs-pe/sciezka-literatury.md`** — spójna ścieżka pracy z literaturą,
 > - **`kurs-pe/pulapki/prompt-injection-demo.md`** — demonstracja ataku na agenta,
@@ -125,7 +125,7 @@ Najprostszy sposób (dla wszystkich — **nie wymaga GitHub ani gita**): **pobie
   > 🍎 macOS: przeciągnij nowy folder na stary → *„Scal / Zastąp"*. 🪟 Windows: przy kopiowaniu wybierz *„Zastąp pliki w miejscu docelowym"*.
 - [ ] Nie chcesz nadpisywać? **Zmień nazwę** starego folderu (np. `kurs-pe-materialy-STARE`) i rozpakuj nowy obok — potem porównasz.
 
-> 🔒 **Twoja praca jest bezpieczna.** Materiały kursowe to zasób „tylko do czytania" — swoje notatki, prompty i artefakty trzymasz w **osobnym** folderze `moj-warsztat/` (poza paczką). Ponowne pobranie ZIP **niczego Twojego nie skasuje**. Jeśli edytowałeś coś *wewnątrz* paczki, najpierw skopiuj to gdzie indziej.
+> 🔒 **Twoja praca jest bezpieczna.** Materiały szkoleniowe to zasób „tylko do czytania" — swoje notatki, prompty i artefakty trzymasz w **osobnym** folderze `moj-warsztat/` (poza paczką). Ponowne pobranie ZIP **niczego Twojego nie skasuje**. Jeśli edytowałeś coś *wewnątrz* paczki, najpierw skopiuj to gdzie indziej.
 >
 > 💻 **Dla znających `git`** (jeśli pobierałeś przez `git clone`, nie ZIP): wystarczy w folderze paczki wpisać `git pull` — dociągnie tylko zmiany.
 
@@ -210,7 +210,7 @@ Zanim wkleisz **cokolwiek** do narzędzia AI w chmurze, zadaj sobie jedno pytani
 
 > ### *„Gdzie trafią te dane?"*
 
-Trzy reguły obowiązujące przez cały kurs (rozwiniemy je w Blokach 4, 7 i 10):
+Trzy reguły obowiązujące przez całe szkolenie (rozwiniemy je w Blokach 4, 7 i 10):
 
 | # | Reguła |
 |---|---|
@@ -222,16 +222,16 @@ Trzy reguły obowiązujące przez cały kurs (rozwiniemy je w Blokach 4, 7 i 10)
 
 ---
 
-## 🎒 Co przynieść na kurs
+## 🎒 Co przynieść na szkolenie
 
 - [ ] Laptop z dostępem do internetu i przeglądarką.
 - [ ] **Własny, jawny materiał badawczy** do ćwiczeń (np. artykuł PDF, fragment metod, 5–8 pozycji bibliografii z Zotero/Bookends) — najlepiej uczysz się na *swoich* tekstach. **Tylko materiał jawny lub zanonimizowany.**
-- [ ] **Pobrane materiały do kursu** (punkt 4) — paczka `kurs-pe-materialy` w folderze *Dokumenty*.
+- [ ] **Pobrane materiały do szkolenia** (punkt 4) — paczka `kurs-pe-materialy` w folderze *Dokumenty*.
 - [ ] *(opcjonalnie)* wykonane instalacje z punktów 5–6: Python + parser `pymupdf4llm` (Blok 6) oraz model lokalny Ollama/LM Studio (Bloki 10–11).
 
 ---
 
-> ### Wchodzisz na kurs z dwiema rzeczami:
+> ### Wchodzisz na szkolenie z dwiema rzeczami:
 > 1. **działającym dostępem** do czterech narzędzi,
 > 2. jednym odruchem: ***zanim wkleję — pytam, gdzie trafią dane.***
 >
