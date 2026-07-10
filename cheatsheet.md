@@ -1,6 +1,24 @@
-# 🚀 Ściągawka (*cheatsheet*)
+# Ściągawka (*cheatsheet*) po szkoleniu
 
 **Prompt engineering w badaniach naukowych** · kurs półwarsztatowy, 3 dni
+
+> **Kompendium szkolenia** jest dostępne online pod adresem <https://jaroslawchodak.github.io/course-ai-research>, a komplet szablonów i skryptów — w repozytorium <https://github.com/jaroslawchodak/kurs-pe-materialy/>. Obie pozycje to **wersje rozwojowe**: będą sukcesywnie uzupełniane o nowe narzędzia i przykłady, dlatego warto wracać do nich także po zakończeniu kursu.
+
+## 🆕 Co nowego po szkoleniu (aktualizacja materiałów)
+
+Poniższe zmiany trafiły do kompendium i do repozytorium już po zajęciach. Żeby mieć je u siebie, pobierz świeżą paczkę (punkt 4) albo zajrzyj do wersji online.
+
+- **OpenAI: Codex → „ChatGPT for desktop".** Od 9 lipca 2026 aplikacja Codex nosi nazwę **ChatGPT for desktop** i spina trzy tryby pracy: **Chat** (standardowy, jak w przeglądarce), **ChatGPT Work** (tryb agentowy dla początkujących i średnio zaawansowanych) oraz **ChatGPT Codex** (zaawansowany tryb programistyczny). Są to bezpośrednie odpowiedniki trzech trybów Claude Desktop od Anthropic: kolejno **Chat**, **Cowork** i **Claude Code**.
+- **Zbiorcze (batch) parsowanie PDF.** Do konwersji wielu plików naraz służy nowy skrypt **`konwersja-batch.py`**: wskazujesz folder z PDF-ami, a otrzymujesz komplet plików `.md`. Instrukcja krok po kroku jest w pliku **`instrukcja-python.md` (Krok 5)**.
+- **Nowa architektura szablonów umiejętności (skills).** Szablony wydzielono do osobnego katalogu **`./szablony-skills`** i zapisano w formacie **`[NAZWA_SKILL].md`** — dzięki temu dołączenie gotowej umiejętności do agenta sprowadza się do wskazania jednego, jednoznacznie nazwanego pliku.
+- **Praca ze skillem na przykładzie `sylabus-fakultet`** (plik `SKILL.md`):
+  1. w podkatalogu `/reference` **dostosuj plik `jak-pisac-sylabusy.md` do własnej dyscypliny** — to on niesie reguły wypełniania sylabusa;
+  2. poproś agenta, by **zbudował nową umiejętność na podstawie trzech plików** z katalogu `sylabus-fakultet` i jego podkatalogu `/reference`: `SKILL.md`, `jak-pisac-sylabusy.md` oraz `fakultet-szablon.md`;
+  3. wygenerowany **Prompt Wykonawczy (System Prompt)** odłóż we własnym katalogu **`/prompty`**, w dowolnym miejscu na dysku lokalnym.
+
+---
+
+## 🚀 Przygotowanie przed kursem (ściągawka przedkursowa)
 
 > **To zaktualizowana wersja ściągawki `cheatsheet-przed-kursem.md`** — rozszerzona **w trakcie kursu** (po Dniu 1) o czynności, o które prosili uczestnicy. Jeśli przygotowanie przedkursowe masz już za sobą, wróć tylko do **nowych pozycji** poniżej.
 
