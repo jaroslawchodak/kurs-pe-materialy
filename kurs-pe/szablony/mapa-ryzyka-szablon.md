@@ -1,3 +1,5 @@
+> ⚠️ **Szablon zastąpiony (październik 2026)** przez [`sygnalizator-danych-szablon.md`](sygnalizator-danych-szablon.md) — sygnalizator danych 🟢🟡🔴 łączy mapę ryzyka i kartę `privacy cage` w jeden artefakt. Ten plik zostaje tylko dla zgodności ze starszymi materiałami.
+
 # Mapa ryzyka danych
 
 > Wypełnij dla TYPÓW danych, z którymi realnie pracujesz. Zasada `privacy cage`: zanim coś wkleisz, wiedz, gdzie to trafi.

@@ -28,9 +28,9 @@ Działający przykład tej procedury masz w katalogu `summarizer-demo/` (`AGENTS
 - **Długi prompt samowystarczalny** (`summarizer-BIG-prompt.md`) — całość reguł i wzorzec w jednym; dobry do czatu / pojedynczego uruchomienia w Codex/Claude Code.
 - **Krótki prompt wykonawczy + reguły w pliku** (`summarize-prompt.md` + `AGENTS.md`) — agent czyta `AGENTS.md` (stałe reguły) i wykonuje krótkie polecenie. To wzorzec „prompt wykonawczy ↔ plik kontekstowy" z Bloku 11.
 
-## Lokalnie czy w chmurze? (decyzja `privacy cage`)
-- **Lokalnie** (materiały wrażliwe): model lokalny (Ollama) lub **AI Document Assistant w DEVONthink** — tekst nie opuszcza komputera.
-- **Komercyjnie** (materiał jawny, publikowany): silniejszy model frontier dla trudnych, długich artykułów.
+## Lokalnie czy w chmurze? (sygnalizator danych 🟢🟡🔴)
+- **Lokalnie** (materiały 🔴, a najlepiej także 🟡): model lokalny (Ollama) lub **AI Document Assistant w DEVONthink** — tekst nie opuszcza komputera.
+- **Komercyjnie** (materiał 🟢 jawny, publikowany; 🟡 tylko z wyłączonym trenowaniem): silniejszy model frontier dla trudnych, długich artykułów.
 
 ## Powiązania
 - Wynik tej procedury = wejście do **matrycy literatury** (Blok 8) i do **agenta klastrującego** (`clustering-demo/`, Blok 11).

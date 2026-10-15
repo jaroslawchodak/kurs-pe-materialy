@@ -32,7 +32,8 @@ Przy pięciu najtrudniejszych pojęciach jest 🔑 **metafora** — punkt zaczep
 | 📚 **Hak (*hook*)** | Krótki skrypt uruchamiany **automatycznie** przez uprzęż przy zdarzeniu w cyklu pracy agenta (np. *przed każdym* odczytem pliku), działający **deterministycznie** — niezależnie od tego, co model „postanowi”. Twardy bezpiecznik tam, gdzie reguła w prompcie bywa zawodna: np. blokuje wczytanie danych osobowych do okna kontekstowego. |
 | 📚 **MoE** | *Mixture of Experts*, mieszanka ekspertów — model aktywujący dla danego tokenu tylko część parametrów („ekspertów”). Lżejszy dla sprzętu niż model gęsty (*dense*) o tej samej wielkości. |
 | 📚 **Kwantyzacja** | Kompresja wag modelu (mniej bitów) → mniej RAM kosztem nieco niższej jakości; `Q4` / `qat` to zwykle najlepszy kompromis. |
-| **Klatka prywatności (*privacy cage*)** | Reguła trzymania danych badawczych w kontrolowanym, w miarę możliwości lokalnym środowisku. |
+| **Sygnalizator danych 🟢🟡🔴** | Trzy pytania przed wklejeniem danych lub udostępnieniem folderu: czy da się rozpoznać osobę? czy obiecałem poufność? czy to niepublikowane i cenne? Kolor wyznacza dozwolone narzędzie: 🟢 dowolne, 🟡 tylko z wyłączonym trenowaniem lub lokalnie, 🔴 nie do chmury. Zastępuje dawną „klatkę prywatności” (*privacy cage*). |
+| **Drabina weryfikacji** | Pięć szczebli sprawdzania źródła: istnienie → metadane → teza → metoda i liczby → status (wycofanie, recepcja). |
 | **Pseudonimizacja (klucz zastępczy)** | Zastąpienie bezpośrednich identyfikatorów neutralnym kodem (np. `R-017`); mapę kod → dane osobowe trzymasz lokalnie, poza promptem. |
 | **Oświadczenie o użyciu AI (*AI disclosure*)** | Jawny opis, co w pracy zrobił człowiek, a co narzędzie — element rzetelności naukowej. |
 

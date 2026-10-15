@@ -33,7 +33,7 @@ Pipeline jest **agnostyczny względem narzędzia** — uruchomisz go dowolnym ag
 - **Antigravity** (dostęp do nowych modeli Gemini oraz cenionych starszych: Opus 4.6, Sonnet).
 - **OpenCode** — w połączeniu z **modelem lokalnym** (Ollama) **albo** z darmowymi modelami dostępnymi w OpenCode (m.in. od Nvidii).
 
-> **`privacy cage`:** uruchomienie z modelem **lokalnym** = streszczenia nie opuszczają komputera. Idealne dla materiałów wrażliwych.
+> **Sygnalizator danych 🟢🟡🔴:** agent w chmurze (Claude Code, Codex, Cowork, Work) wysyła treść czytanych streszczeń do modelu w chmurze, więc w `summaries/` mogą być tylko dane 🟢 i 🟡. Uruchomienie z modelem **lokalnym** (OpenCode + Ollama) = streszczenia nie opuszczają komputera; to droga dla danych 🔴.
 
 ## Jak uruchomić (skrót)
 

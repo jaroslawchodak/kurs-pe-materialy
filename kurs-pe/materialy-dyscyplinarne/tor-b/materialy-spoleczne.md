@@ -6,7 +6,7 @@
 
 ## B1 · Fragment zanonimizowanej transkrypcji wywiadu (do ćwiczeń z anonimizacji i zakotwiczenia)
 
-> Uwaga: identyfikatory zastąpiono kluczem (R-017). To ćwiczenie z `privacy cage` — na sali pracujemy tylko na takim, jawnym materiale.
+> Uwaga: identyfikatory zastąpiono kluczem (R-017). Pseudonimizacja nie zmienia koloru danych (sygnalizator 🟢🟡🔴): prawdziwa transkrypcja z kluczem R-017 wciąż byłaby 🔴. Ten fragment jest fikcyjny i jawny, dlatego wolno na nim ćwiczyć w chmurze.
 
 **Badacz:** Jak zmieniła się Pani praca po wdrożeniu nowego systemu?
 **R-017:** Na początku było trudno, bo nikt nie tłumaczył, jak to działa. Uczyliśmy się metodą prób i błędów. Po dwóch miesiącach było już lepiej, ale wciąż nie ufam automatycznym podpowiedziom — wolę sprawdzić sama.

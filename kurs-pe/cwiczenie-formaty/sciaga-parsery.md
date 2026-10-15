@@ -43,6 +43,6 @@ Dla artykułu naukowego z bogatą bibliografią dołóż **GROBID** (metadane + 
 
 ## Dwie reguły kursu (bez nich parser szkodzi)
 1. **Kontrola wierności** — po konwersji porównaj `.md` z oryginałem w 2–3 newralgicznych miejscach (tabela z wynikami, kluczowa liczba, przypis). Parser potrafi **cicho** zgubić lub przekręcić dane (most do Bloku 6, „ryzyko i przeciwdziałanie"). Kotwiczysz tezę tylko w tym, co wiernie odwzorowane.
-2. **Gdzie trafiają dane** — narzędzia lokalne (PyMuPDF, Docling, GROBID, Markitdown, Pandoc) działają na Twoim komputerze. **Usługi chmurowe** (np. Llama Parse) wysyłają plik na serwer — nie używaj ich do materiałów wrażliwych / pod NDA (zasada `privacy cage`, Blok 10).
+2. **Gdzie trafiają dane** — narzędzia lokalne (PyMuPDF, Docling, GROBID, Markitdown, Pandoc) działają na Twoim komputerze. **Usługi chmurowe** (np. Llama Parse) wysyłają plik na serwer — używaj ich tylko do materiałów 🟢 jawnych; nie do 🟡 ani 🔴 (sygnalizator danych, Bloki 4 i 10).
 
 > Stan narzędzi: czerwiec 2026 — przed użyciem sprawdź aktualną dokumentację producenta (Blok 12: śledź źródła pierwotne, nie blogi).

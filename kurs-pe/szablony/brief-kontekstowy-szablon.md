@@ -24,7 +24,7 @@
 > tabela / lista / akapit / JSON wg schematu...
 
 **Granice i ostrzeżenia:**
-- Dane wrażliwe w tym zadaniu? (TAK/NIE — jeśli TAK, sprawdź kartę `privacy cage`)
+- Kolor danych w tym zadaniu (sygnalizator): 🟢 / 🟡 / 🔴 — przy 🟡 trenowanie wyłączone i minimum danych; przy 🔴 tylko model lokalny, narzędzie zatwierdzone przez IOD albo bez AI
 - Czego model NIE ma robić: ...
 
 ---

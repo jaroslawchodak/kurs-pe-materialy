@@ -49,5 +49,5 @@ Czego **nie** deklarujemy jako „pomoc", bo tego robić nie wolno: zmyślania �
 ## Powiązania w kursie
 - Refleksyjność i autorstwo wyniku → rozdział „Etyka i granice AI".
 - Weryfikacja źródeł (każde twierdzenie ma sprawdzalny ślad) → Blok 4, Blok 8.
-- Ochrona danych przed wklejeniem do chmury → Blok 4, karta `privacy cage` (Blok 10).
+- Ochrona danych przed wklejeniem do chmury → sygnalizator danych 🟢🟡🔴 (Blok 4, uzupełniany w Bloku 10).
 - Ten szablon wkładasz do portfolio razem z `PROTOKOL-AI.md`.
