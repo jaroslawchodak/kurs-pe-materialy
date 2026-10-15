@@ -11,7 +11,7 @@ Ten sam agent, tylko w „opakowaniu" z oknem zamiast wiersza poleceń — aplik
 | **Claude Code** | ten sam agent Anthropic jako aplikacja desktopowa (macOS/Windows), aplikacja webowa (`claude.ai/code`) oraz rozszerzenie do VS Code / JetBrains |
 | **OpenAI Codex** | rozszerzenie do IDE (VS Code) oraz wersja chmurowa/webowa |
 | **Google Antigravity** | agentowa platforma Google: edytor (IDE, fork VS Code) + osobna aplikacja desktopowa do orkiestracji agentów; model w chmurze Google |
-| **OpenCode** | ten sam otwarty agent w wersji z interfejsem graficznym (desktop/web); pozwala wpiąć **model lokalny (Ollama)** → wariant `privacy cage` |
+| **OpenCode** | ten sam otwarty agent w wersji z interfejsem graficznym (desktop/web); pozwala wpiąć **model lokalny (Ollama)** → wariant dla danych 🔴 (sygnalizator) |
 
 ## Agenty (środowiska agentowe) uruchamiane z terminala (CLI)
 Ten sam agent uruchamiany z wiersza poleceń — lekki, skryptowalny, łatwy do wpięcia modelu lokalnego.
@@ -20,7 +20,7 @@ Ten sam agent uruchamiany z wiersza poleceń — lekki, skryptowalny, łatwy do 
 | **Claude Code** | agent terminalowy Anthropic; czyta/zapisuje pliki, uruchamia komendy, czyta `CLAUDE.md` |
 | **OpenAI Codex (CLI)** | agentowy asystent kodu/automatyzacji z linii poleceń |
 | **Antigravity CLI** | terminalowy agent Google (komenda `agy`, następca Gemini CLI); ten sam silnik co aplikacja Antigravity 2.0 |
-| **OpenCode** | otwarty agent terminalowy; łatwo wpiąć **model lokalny (Ollama)** → wariant `privacy cage` |
+| **OpenCode** | otwarty agent terminalowy; łatwo wpiąć **model lokalny (Ollama)** → wariant dla danych 🔴 (sygnalizator) |
 
 ## Edytory / terminale (środowisko z interfejsem)
 Tu agent jest *dodatkiem* do edytora lub terminala ogólnego przeznaczenia (a nie samodzielnym środowiskiem agentowym jak wyżej).
@@ -42,5 +42,5 @@ Jeśli masz sprzęt i ochotę poeksperymentować przed Blokiem 11, zainstaluj je
 
 ## Powiązania
 - Pełny obraz agenta nad plikami → Blok 11 + `modul-clustering-demo.md`.
-- Decyzja chmura/lokalnie → Blok 10, karta `privacy-cage-szablon.md`.
+- Decyzja chmura/lokalnie → Bloki 4 i 10, szablon `sygnalizator-danych-szablon.md` (🟢🟡🔴).
 - Trzy mechanizmy rozszerzania agenta (Skills · MCP · Python) → `sciaga-skills.md`. 

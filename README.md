@@ -32,7 +32,7 @@ Każde demo ma własny opis. Zacznij od pliku **`README.md`** (lub `AGENTS.md`) 
 
 Pliki w demach (`AGENTS.md`, `CONTEXT.md`, `WORKFLOW.md`, `EXECUTION-PROMPT.md`) są **agnostyczne względem narzędzia** — uruchomisz je dowolnym agentem nad plikami (Claude Code, Codex, Antigravity, OpenCode + model lokalny).
 
-> **Prywatność (`privacy cage`):** uruchomienie z modelem **lokalnym** (np. Ollama) oznacza, że Twoje materiały nie opuszczają komputera. To rekomendowane rozwiązanie dla danych wrażliwych.
+> **Prywatność — sygnalizator danych 🟢🟡🔴:** zanim udostępnisz agentowi folder, nadaj danym kolor (szablon: `kurs-pe/szablony/sygnalizator-danych-szablon.md`). Agenci w chmurze (Claude Code, Codex, ChatGPT Work, Claude Cowork) czytają pliki z Twojego dysku, ale ich treść wysyłają do modelu w chmurze — w folderze mogą być tylko dane 🟢 i 🟡. Dla danych 🔴 uruchom demo z modelem **lokalnym** (np. OpenCode + Ollama): materiały nie opuszczają wtedy komputera.
 
 ---
 
