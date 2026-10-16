@@ -46,7 +46,7 @@ Zaznacz, gdy gotowe:
 
 - [ ] **ChatGPT** — `chat.openai.com` · *czat ogólny + tryb research; punkt odniesienia (Dzień 1 i 3)*
 - [ ] **Claude** — `claude.ai` · *czat ogólny; główny model agentów (Dzień 3)*
-- [ ] **Gemini** — `gemini.google.com` · *czat + Deep Research; brama do NotebookLM (Dzień 2)*
+- [ ] **Gemini** — `gemini.google.com` · *czat + Deep Research; brama do Gemini Notebook (Dzień 2)*
 - [ ] **GROK** — `https://grok.com` · *czat + wyszukiwarka AI z odnośnikami do źródeł (Dzień 1-2)*
 - [ ] **Perplexity** — `perplexity.ai` · *wyszukiwarka AI z odnośnikami do źródeł (Dzień 1)*
 

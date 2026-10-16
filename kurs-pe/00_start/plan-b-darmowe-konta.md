@@ -8,7 +8,7 @@
 |---|---|---|---|
 | B1 | porównanie narzędzi | limit wiadomości w trybie research | zadaj jedno pytanie, nie serię; użyj Perplexity (darmowy tryb ma odnośniki) |
 | B6 | załącznik PDF do czatu | limit rozmiaru/liczby załączników | skonwertuj PDF → Markdown skryptem (Blok 6) i wklej **tekst**, nie plik — mniej tokenów, brak limitu załączników |
-| B8 | matryca + NotebookLM | — | **NotebookLM jest darmowy i bez instalacji** — dlatego jest osią Dnia 2 |
+| B8 | matryca + Gemini Notebook | — | **Gemini Notebook jest darmowy i bez instalacji** — dlatego jest osią Dnia 2 |
 | B9 | Deep Research | darmowy limit ChatGPT/Gemini (często 1–5 raportów/mies.) | uruchom **na starcie bloku**; 1 raport wystarcza do ćwiczenia. Alternatywa: Perplexity (darmowe „Pro Search") lub Elicit (darmowy limit ekstrakcji) |
 | B9 | narzędzia literaturowe | limit Elicit/Consensus | rozłóż zapytania; użyj **OpenAlex** i **Semantic Scholar** (w pełni darmowe API/web) do weryfikacji |
 | B10 | model lokalny | — | model lokalny jest **darmowy z definicji**; brak sprzętu → artefaktem jest karta decyzyjna, nie uruchomienie |

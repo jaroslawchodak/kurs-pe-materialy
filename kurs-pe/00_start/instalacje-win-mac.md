@@ -23,7 +23,7 @@
 
 - [ ] **ChatGPT** — chat.openai.com
 - [ ] **Claude** — claude.ai
-- [ ] **Gemini** — gemini.google.com (brama do NotebookLM: notebooklm.google.com)
+- [ ] **Gemini** — gemini.google.com (brama do Gemini Notebook: notebook.google.com)
 - [ ] **Perplexity** — perplexity.ai
 
 Test: zadaj w każdym to samo pytanie („Wyjaśnij w 3 zdaniach, czym jest przegląd systematyczny") i zauważ, które **podało źródła z odnośnikami**.

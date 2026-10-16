@@ -36,7 +36,7 @@ Wszędzie NIE                                                           → 🟢
 
 | Typ danych | Kolor | Narzędzie, którego używam | Warunki (minimum danych, czat tymczasowy, kopia) | Dla 🔴: lokalnie / instytucjonalnie / bez AI — i dlaczego |
 |---|---|---|---|---|
-| np. artykuły open access do przeglądu | 🟢 | ChatGPT, Claude, NotebookLM | — | — |
+| np. artykuły open access do przeglądu | 🟢 | ChatGPT, Claude, Gemini Notebook | — | — |
 | np. mój niepublikowany manuskrypt | 🟡 | Claude (trenowanie wyłączone) | tylko fragment; rozmowę usuwam po pracy | — |
 | np. surowe wyniki pomiarów przed publikacją | 🟡 | ChatGPT Work (folder projektu) | tylko zagregowane tabele, bez notatek laboratoryjnych | — |
 | np. transkrypcje wywiadów | 🔴 | — | — | lokalnie: Ollama + `granite4.2:8b`, po konsultacji z IOD |

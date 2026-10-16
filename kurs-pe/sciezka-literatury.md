@@ -10,7 +10,7 @@
 | **4. Oczyszczenie** | PDF → czysty Markdown, usuń śmieci OCR | B6 | `pymupdf4llm`, `konwersja.py` | czysty `.md` |
 | **5. Streszczenie zakotwiczone** | długi artykuł → streszczenie z tagiem źródła | B6 | summarizer (`summarizer-demo/`) | streszczenie z lokalizacją |
 | **6. Matryca / „mały RAG"** | ręczna selekcja tez i cytatów-kotwic | B8 | `matryca-literatury-szablon.md` | matryca 3–5 źródeł |
-| **7. Lektura wielu źródeł** | odpytaj cały korpus z zakotwiczeniem | NotebookLM (Dzień 2) | preambuła + sekwencja 7 kroków | notatki trwałe |
+| **7. Lektura wielu źródeł** | odpytaj cały korpus z zakotwiczeniem | Gemini Notebook (Dzień 2) | preambuła + sekwencja 7 kroków | notatki trwałe |
 | **8. Weryfikacja cytowań** | trzystopniowy werdykt na każde źródło | B9 | `protokol-weryfikacji-zrodel.md` | karta z werdyktami |
 | **9. Skalowanie (opcjonalnie)** | agent grupuje korpus automatycznie | B11 | `clustering-demo/` | raport + outline |
 
@@ -20,4 +20,4 @@ Na **każdym** kroku obowiązuje ograniczone zaufanie i zakotwiczenie: narzędzi
 
 ## Tory dyscyplinarne
 
-Materiał do wszystkich kroków wybierasz w **swoim torze** (`kurs-pe/materialy-dyscyplinarne/`): **A** ścisłe/przyrodnicze · **B** społeczne · **C** humanistyka. Procedura identyczna — różni się tylko materiał i *pytanie badacza* (por. wariacja NotebookLM „ta sama książka, trzy pytania dyscyplinarne").
+Materiał do wszystkich kroków wybierasz w **swoim torze** (`kurs-pe/materialy-dyscyplinarne/`): **A** ścisłe/przyrodnicze · **B** społeczne · **C** humanistyka. Procedura identyczna — różni się tylko materiał i *pytanie badacza* (por. wariacja Gemini Notebook „ta sama książka, trzy pytania dyscyplinarne").

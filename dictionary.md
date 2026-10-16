@@ -22,7 +22,7 @@ Przy pięciu najtrudniejszych pojęciach jest 🔑 **metafora** — punkt zaczep
 | **Streszczanie (*summarizer*)** | Procedura zamiany długiego tekstu w uporządkowane, zakotwiczone w źródle streszczenie — punkt wejścia do matrycy literatury i pracy z RAG. |
 | **Matryca literatury** | Tabela, w której każdemu źródłu odpowiada wiersz z ustalonymi polami (np. teza, metoda, wynik, cytat-kotwica). Podstawa zakotwiczonego przeglądu — model syntetyzuje **Twoją** tabelę, zamiast zmyślać źródła. |
 | **Parser** | Narzędzie, które wydobywa treść z PDF/DOCX/skanu do czystego Markdown (usuwa numery stron, stopki, śmieci OCR), zanim model to przeczyta. |
-| **NotebookLM** | Narzędzie Google: wczytuje wiele źródeł i odpytuje je z zakotwiczeniem w nich; generuje notatki, slajdy, audio/wideo. Działa w chmurze → wgrywasz tylko źródła jawne. |
+| **Gemini Notebook** (dawniej NotebookLM) | Narzędzie Google: wczytuje wiele źródeł i odpytuje je z zakotwiczeniem w nich; generuje notatki, slajdy, audio/wideo. Działa w chmurze → wgrywasz tylko źródła jawne. |
 | **Agent** | Model z narzędziami (czyta/zapisuje pliki, wyszukuje) i instrukcją, wykonujący wieloetapowe zadania. 🔑 *Metafora:* **asystent z dostępem do szafy z dokumentami i listą procedur** — czyta i odkłada pliki, ale tylko wedle spisanych reguł i tylko za Twoją zgodą na każdym kroku. |
 | **Model agentyczny vs chatbot** | Agentyczny potrafi wywoływać narzędzia, trzymać format i działać w pętli; chatbot świetnie rozmawia, ale w roli agenta zawodzi. |
 | **MCP** | *Model Context Protocol* — standard bezpiecznego sięgania modelu do zewnętrznych źródeł i narzędzi. |

@@ -1,4 +1,4 @@
-# NotebookLM - książka naukowa (scientific book)
+# Gemini Notebook (dawniej NotebookLM) - książka naukowa (scientific book)
 
 > Przed wysłaniem zapytań na temat książki dobrą praktyką jest określenie zasad rozmowy (reguły ograniczające halucynacje).
 
@@ -74,7 +74,7 @@ Zastosuj rygorystyczne zasady dla notatek:
 
 ```
 
-## Wskazówka do NotebookLM:
+## Wskazówka do Gemini Notebook:
 
 > Jeśli po użyciu któregoś promptu odpowiedź będzie zbyt ogólna, dodaj polecenie uzupełniające:
 
