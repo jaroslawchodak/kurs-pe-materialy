@@ -1,12 +1,12 @@
-# Pułapki na halucynacje — materiał uczestnika
+# Testy kontrolne i weryfikacja twierdzeń — materiał uczestnika
 
 > Do Bloków 1, 4, 8 i 9. Cel: wyrobić ODRUCH weryfikacji, nie wyśmiać model.
 >
-> **Wersja z października 2026.** Prompty do „Polowania na halucynacje" (pułapki 1–6 z Bloku 4) prowadzący rozdaje na sali, żeby nie zdradzać wcześniej, czego szukać. Tu masz narzędzia do pracy: mapę sześciu błędów, kartę złapanego błędu, drabinę weryfikacji, checklistę STAT-5 i pułapki klasyczne do samodzielnego treningu.
+> **Wersja 2 (28.10.2026).** Prompty testów kontrolnych 1–6 z Bloku 4 prowadzący rozdaje na sali, żeby nie zdradzać wcześniej, czego szukać. Test kontrolny to prompt zaprojektowany tak, by sprowokować określony typ błędu; wynik sprawdzasz **protokołem weryfikacji twierdzeń**. Tu masz narzędzia do pracy: typologię sześciu błędów, protokół weryfikacji, drabinę weryfikacji, checklistę STAT-5 i testy klasyczne do samodzielnego treningu. Dziennik weryfikacji: `szablony/dziennik-weryfikacji-szablon.md`.
 
 ---
 
-# Mapa sześciu błędów 2026 (Blok 4)
+# Typologia sześciu błędów 2026 (Blok 4)
 
 | # | Typ błędu | Jak wygląda | Szczebel drabiny, który go łapie |
 |---|---|---|---|
@@ -15,7 +15,7 @@
 | 3 | **Konfabulacja niszowa** | szczegóły dopowiedziane „z wzorca gatunku" przy źródłach lokalnych, polskojęzycznych, archiwalnych | 1–3 + katalog biblioteczny |
 | 4 | **Nadinterpretacja danych** | „istotny trend" bez testu, przyczynowość z korelacji, uogólnienie poza próbę, wartości *p* wzięte znikąd | checklista STAT-5 |
 | 5 | **Fałszywa przesłanka** | model przyjmuje błędne założenie pytania i odpowiada „w jego ramach" | 2–3 |
-| 6 | **Uległość** (*sycophancy*) | model przytakuje hipotezie badacza albo zmienia poprawną odpowiedź pod presją | nowy czat jako recenzent + źródło |
+| 6 | **Uległość** (*sycophancy*) | model przytakuje hipotezie badacza albo zmienia poprawną odpowiedź pod presją | niezależny audyt (nowy czat) + źródło |
 
 ## Checklista STAT-5 (do każdego akapitu „Wyniki" napisanego z pomocą AI)
 1. Czy **każda liczba** ma źródło w danych albo pokazane obliczenie?
@@ -41,19 +41,17 @@ Wypisz każde twierdzenie, którego dane nie uzasadniają. Nie bierz pod uwagę 
 
 ---
 
-## Karta złapanego błędu (do ćwiczenia w Bloku 4)
+## Protokół weryfikacji twierdzeń (do ćwiczenia w Bloku 4)
 
-```text
-Typ błędu (1–6):
-Prompt:
-Co twierdził model (1–2 zdania):
-Szczebel drabiny, na którym błąd wyszedł:
-Źródło weryfikacji (URL / katalog / tekst):
-Werdykt: istnieje+trafne / istnieje+przekręcone / nie istnieje / ⚠️ wycofana
-Jak zmienię prompt, żeby temu zapobiec:
-```
+1. **Dekompozycja** — rozłóż odpowiedź na ponumerowane twierdzenia atomowe (jedno twierdzenie = jedna sprawdzalna informacja).
+2. **Typ** — B (istnieje publikacja X), A (publikacja X twierdzi Y), E (liczba, wynik, próba), I (interpretacja lub synteza).
+3. **Dowód** — źródło pierwotne + lokalizacja + dosłowny fragment (A i E sprawdzasz w tekście, nie w abstrakcie).
+4. **Werdykt** — potwierdzone / zniekształcone / niepotwierdzone / sprzeczne (+ adnotacja *wycofana*).
+5. **Dziennik** — zapis w tabeli i decyzja: użyj / przeformułuj sam / usuń.
 
-**Model nie popełnił błędu?** Zapisz „test negatywny" z dwoma szczeblami weryfikacji i zmień jedną rzecz (wyłącz rozumowanie, zawęź temat, dodaj fałszywą przesłankę).
+Prompt do dekompozycji i wzór dziennika: `szablony/dziennik-weryfikacji-szablon.md`.
+
+**Wszystkie twierdzenia potwierdzone?** To też wynik: zapisz liczbę sprawdzonych twierdzeń i zmień jedną rzecz w teście (wyłącz rozumowanie, zawęź temat, dodaj fałszywą przesłankę). Jedna poprawna odpowiedź nie dowodzi rzetelności narzędzia.
 
 ## Drabina weryfikacji (przypomnienie)
 
@@ -69,7 +67,7 @@ Próg: orientacja → szczeble 1–2 na próbce; własny tekst → 1–4 dla ka�
 
 ---
 
-# Pułapki klasyczne do samodzielnego treningu (rozgrzewka, Blok 1)
+# Testy klasyczne do samodzielnego treningu (rozgrzewka, Blok 1)
 
 ## K1 — zmyślone źródło (DOI)
 Poproś dowolny model bez dostępu do sieci:
@@ -122,4 +120,4 @@ Każdą tezę poprzyj dokładnym cytatem z materiału.
 Czego nie ma w materiale — napisz „brak danych". Nie zgaduj. Nie wymyślaj źródeł.
 ```
 
-Pokaż tę samą pułapkę z włączonym groundingiem — różnica jest dydaktycznie uderzająca.
+Pokaż ten sam test z włączonym groundingiem — różnica jest dydaktycznie uderzająca.

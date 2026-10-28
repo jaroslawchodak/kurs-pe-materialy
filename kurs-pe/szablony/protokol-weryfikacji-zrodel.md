@@ -1,5 +1,7 @@
 # Protokół weryfikacji źródeł — procedura pięciu kroków (ściąga do wydruku)
 
+> **Wersja 2 (28.10.2026):** od tej wersji kursu podstawowym narzędziem jest **protokół weryfikacji twierdzeń** i dziennik (`dziennik-weryfikacji-szablon.md`). Ta ściąga zostaje jako skrót dla twierdzeń typu B i A (istnienie publikacji i to, co publikacja twierdzi). Trzystopniowy werdykt odpowiada werdyktom z dziennika: istnieje+trafne = potwierdzone, istnieje+przekręcone = zniekształcone, nie istnieje = niepotwierdzone.
+
 > Używasz, gdy model (czat, deep research, narzędzie literaturowe) poda Ci cytowanie, które ma trafić do Twojego przeglądu. Cel: odróżnić **trzy** stany źródła, nie dwa. Najgroźniejszy nie jest „źródło nie istnieje" — tylko **„źródło istnieje, ale teza przekręcona"**, bo przechodzi przez pobieżną kontrolę.
 
 ## Procedura na JEDNO cytowanie
@@ -27,4 +29,4 @@
 ## Próg intensywności
 
 - **Do orientacji / burzy mózgów:** sprawdź **próbkę** (np. 3 wylosowane cytowania).
-- **Do publikacji / recenzji:** sprawdź **KAŻDE** cytowanie. To, co idzie pod Twoje nazwisko, weryfikujesz w całości — „tak podała AI" nie jest usprawiedliwieniem (por. rozdział „Etyka i granice AI").
+- **Do publikacji / recenzji:** sprawdź **KAŻDE** cytowanie. To, co idzie pod Twoje nazwisko, weryfikujesz w całości — „tak podała AI" nie jest usprawiedliwieniem (por. Blok 12, część „Etyka i granice AI").

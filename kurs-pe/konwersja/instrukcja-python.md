@@ -99,6 +99,36 @@ Wyniki `.md` trafiają do `md_output/`. Oba foldery możesz zmienić flagami.
 
 ---
 
+## Krok 6. Z powrotem: Markdown → Word i Excel (wersja 2, Blok 6)
+
+> Markdown to wersja źródłowa; `.docx` i `.xlsx` to „wydruki" dla współpracowników i redakcji.
+
+**Word — pandoc** (instalacja raz):
+- Windows (PowerShell): `winget install --id JohnMacFarlane.Pandoc` albo instalator `.msi` z https://pandoc.org/installing.html
+- macOS (Terminal): `brew install pandoc` albo instalator `.pkg` z https://pandoc.org/installing.html
+
+```
+pandoc matryca.md -o matryca.docx
+```
+
+**Excel — skrypt `md2xlsx.py`** (pandoc nie zapisuje plików `.xlsx`). Każda tabela z pliku `.md` trafia do osobnego arkusza.
+
+macOS:
+```
+pip3 install openpyxl
+python3 md2xlsx.py matryca.md matryca.xlsx
+```
+Windows:
+```
+pip install openpyxl
+python md2xlsx.py matryca.md matryca.xlsx      # albo: py md2xlsx.py ...
+```
+Po konwersji sprawdź liczbę wierszy i jedną liczbę w arkuszu. Liczby z przecinkiem dziesiętnym (`0,21`) zostają tekstem.
+
+**Bez instalacji:** otwórz `.docx` w Wordzie, zaznacz tabelę, skopiuj (`Ctrl+C` / `⌘C`) i wklej do Excela (`Ctrl+V` / `⌘V`).
+
+---
+
 ## Wariant awaryjny (bez Pythona)
 Jeśli instalacja nie zadziała — nie blokuje to celu kursu:
 1. Skopiuj tekst z PDF do edytora Markdown ręcznie, **albo**

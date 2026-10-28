@@ -23,7 +23,9 @@ To repozytorium zawiera **gotowe szablony, ściągi i demonstracje agentów AI**
 
 | Katalog | Zawartość |
 |---|---|
-| **`kurs-pe/`** | Szablony (briefy kontekstowe, protokoły AI, mapy ryzyka), ściągi (Markdown, XML, parsery, skills) i ćwiczenia. To „skrzynka z narzędziami" uczestnika. |
+| **`kurs-pe/`** | Szablony (briefy kontekstowe, protokół AI, sygnalizator danych, dziennik weryfikacji, prompt wyszukiwawczy, lista kontrolna katalogu projektu), ściągi (Markdown, XML, parsery, skills), skrypty konwersji (PDF → Markdown, Markdown → Excel) i ćwiczenia. To „skrzynka z narzędziami" uczestnika. |
+| **`kurs-pe/szablony-skills/`** | Gotowe **skills** do pracy badawczej (streszczenie, kwerenda, weryfikacja twierdzeń, kodowanie jakościowe, analiza opisowa, recenzja, eksport do Worda) i szablony do adaptacji. Instrukcja instalacji w `README.md` katalogu. |
+| **`kurs-pe/dla-chetnych/`** | Ćwiczenia rozszerzające DC-1 … DC-14 — do wykonania po zajęciach albo gdy skończysz minimum na sali. |
 | **`clustering-demo/`** | Pełne demo **agenta AI** w działaniu (Dzień 3): czyta streszczenia literatury, grupuje je tematycznie, wykrywa napięcia i luki, zapisuje raport oraz strukturę przeglądu. Zawiera profil agenta, kontekst, workflow i prompt wykonawczy. |
 | **`summarizer-demo/`** | Demo **kontrolowanego streszczania** literatury — prompty (PL/EN) i profil agenta. |
 
